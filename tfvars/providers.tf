@@ -9,7 +9,7 @@ terraform {
 
 
   backend "s3" {
-   # bucket = "devopstraining-remote-state"
+   # bucket = "devopstraining-state-remote"
    # key    = "foreach"
    # region = "us-east-1"
    # dynamodb_table = "devopstraining-locking"
